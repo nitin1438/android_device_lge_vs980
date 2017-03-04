@@ -16,6 +16,8 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
+# Inline kernel building
+TARGET_KERNEL_SOURCE := kernel/lge/g2
 TARGET_KERNEL_CONFIG := crdroid_vs980_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := vs980,g2,galbi
